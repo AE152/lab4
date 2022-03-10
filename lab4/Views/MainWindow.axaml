@@ -1,0 +1,52 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:lab4.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="450"
+        x:Class="lab4.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="lab4"
+	    Width="450"
+		Height="450">
+
+    <Grid ShowGridLines="False" RowDefinitions="66, *, *, *" ColumnDefinitions="*, *, *, *"> 
+		<TextBox FontSize="66" Focusable="False" Grid.Row="0" Grid.ColumnSpan="4"/>
+	    <Button Name="btn1" FontSize="36" Content="I" Grid.Row="1" Grid.Column="0" 
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center" ></Button>
+	    <Button Name="btn2" FontSize="36" Content="L" Grid.Row="1" Grid.Column="1"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+	    <Button Name="btn3" FontSize="36" Content="M" Grid.Row="1" Grid.Column="2"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+        <Button Name="btn4" FontSize="36" Content="*" Grid.Row="1" Grid.Column="3"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+        <Button Name="btn5" FontSize="36" Content="V" Grid.Row="2" Grid.Column="0"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+        <Button Name="btn6" FontSize="36" Content="C" Grid.Row="2" Grid.Column="1"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+	    <Button Name="btn7" FontSize="36" Content="+" Grid.Row="2" Grid.Column="2"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+	    <Button Name="btn8" FontSize="36" Content="/" Grid.Row="2" Grid.Column="3"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+	    <Button Name="btn9" FontSize="36" Content="X" Grid.Row="3" Grid.Column="0"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+        <Button Name="btn10" FontSize="36" Content="D" Grid.Row="3" Grid.Column="1"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+        <Button Name="btn11" FontSize="36" Content="-" Grid.Row="3" Grid.Column="2"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+        <Button Name="btn12" FontSize="36" Content="=" Grid.Row="3" Grid.Column="3"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+		        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
+	</Grid>
+</Window>
