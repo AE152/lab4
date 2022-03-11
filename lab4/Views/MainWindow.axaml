@@ -10,7 +10,7 @@
 	    Width="450"
 		Height="450">
 
-    <Grid ShowGridLines="False" RowDefinitions="66, *, *, *" ColumnDefinitions="*, *, *, *"> 
+    <Grid ShowGridLines="False" RowDefinitions="90, *, *, *" ColumnDefinitions="*, *, *, *"> 
 		<TextBox IsUndoEnabled="False" FontSize="66" Focusable="False" Grid.Row="0" Grid.ColumnSpan="4" Text="{Binding Greeting}"/>
 	    <Button Name="btn1" FontSize="36" Content="I" Grid.Row="1" Grid.Column="0" 
 				HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
